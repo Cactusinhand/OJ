@@ -59,9 +59,9 @@ void infoClear(struct INFO info[], int len) {
 int main() {
 	
 	struct INFO info[20];
-	infoClear(info, 20);  // 全局变量不用这样
+	infoClear(info, 20);  //
 	char name[50];
-    memset(name, '\0', sizeof(name));
+   	memset(name, '\0', sizeof(name));
 	
 	int num, gold, silver, bronze;
 	scanf("%d",&num);
